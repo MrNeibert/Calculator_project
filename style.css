@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, rgb(33, 202, 214), rgb(228, 228, 78));
   padding: 0px; 
   margin: 0px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Geneva', Verdana, sans-serif;
   font-weight: normal;
   height: 100vh;
 }
@@ -20,6 +20,11 @@ body {
   margin-bottom: 100px;
   color: rgba(255, 255, 255, 0.87);
   width: max-content;
+  font-size: large;
+}
+
+.tittle > h2 {
+  text-align: center;
 }
 
 
@@ -36,7 +41,7 @@ body {
   font-size: 2em;
   border: 1px solid white;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.75) ;
+  background-color: rgba(255, 255, 255, 0.70) ;
 }
 .calculator > button:hover {
   background-color: rgba(255,255,255,0.9);
@@ -64,6 +69,6 @@ body {
 }
 .screen > .current {
   color: rgba(255,255,255);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
